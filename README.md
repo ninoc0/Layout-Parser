@@ -8,11 +8,8 @@ This was code written for Syracuse Unviersity Professor Kristy Buzard as a resea
 
 # 1. The first version
 
-[Original Layout Parser Test](https://github.com/ninoc0/Layout-Parser/blob/main/orignal_layout_parser_test.ipynb)
+[Original Layout Parser Test](https://github.com/ninoc0/Layout-Parser/blob/main/orignal_layout_parser_test.ipynb) was the first version of this code that I wrote. At the bottom of the Colab page, you can find one of these tax documents and see how the parser read and organized it.
 
-
-The "original layout parser" was my first version of code. It has a lot of code that ended up being redundant or unnecessary. I published it in case some of the lines I removed become necessary later. To see my current progress check the one titled "Layout Parser Test."
-
-This is unfortunatly not finished, this is just a simple spacial recognition of the tables. Using macheine learning, the detectron will be used to output a clean table format of these old import documents, eventually....
-
-The layout parser update is the newest verson, which has the personalized reading. 
+---
+# 2. The final version
+[Layout Parser Update](https://github.com/ninoc0/Layout-Parser/blob/main/layout_parser_update.ipynb) is the version that was in use while I was working as an RA. This project was successfully able to block the data into separate lines in order to properly convert it into an excel chart. This project failed in its ability to convert the words on the page into text. This is partially due to low quality of the images and the "detectron" I was using. 
